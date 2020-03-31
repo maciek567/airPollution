@@ -2,13 +2,13 @@
 ``` App to check cuurent air pollution index of stations located in Kraków. ```
 
 ### Run app ###
-![start](screens/start.png)
+![start](https://github.com/maciek567/airPollution/blob/master/screens/start.PNG)
 
 ### Choose station ###
-![menu](screens/menu.png)
+![menu](https://github.com/maciek567/airPollution/blob/master/screens/menu.PNG)
 
 ### Look at pollution index ###
-![basic](screens/basic.png)
+![basic](https://github.com/maciek567/airPollution/blob/master/screens/basic.PNG)
 
 ### View detailed index of specific paremeter ###
-![detailed](screens/detailed.png)
+![detailed](https://github.com/maciek567/airPollution/blob/master/screens/detailed.PNG)
