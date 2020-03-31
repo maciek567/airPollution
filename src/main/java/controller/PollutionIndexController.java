@@ -35,7 +35,7 @@ public class PollutionIndexController {
 
     void init(int stationNumber) throws IOException {
         this.stationNumber = stationNumber;
-        PollutionInfo pollutionInfo = new PollutionInfoInternet();
+        PollutionInfo pollutionInfo = new PollutionInfoLocal();
         String stationName = pollutionInfo.getStationNameByNumber(stationNumber);
         this.stationNameLabel.setText(new String(stationName.getBytes(sun.nio.cs.ISO_8859_2.defaultCharset()), StandardCharsets.UTF_8));
         Index index = pollutionInfo.getIndex(stationNumber);

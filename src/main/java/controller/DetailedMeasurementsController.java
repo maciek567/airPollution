@@ -38,7 +38,7 @@ public class DetailedMeasurementsController {
     void init(int stationNumber, String sensorName) throws IOException {
         this.stationNumber = stationNumber;
         this.sensorName = sensorName;
-        this.pollutionInfo = new PollutionInfoInternet();
+        this.pollutionInfo = new PollutionInfoLocal();
         String stationName =  pollutionInfo.getStationNameByNumber(stationNumber);
         this.stationNameLabelDetailed.setText(new String(stationName.getBytes(sun.nio.cs.ISO_8859_2.defaultCharset()), StandardCharsets.UTF_8));
         this.sensorNameLabel.setText(sensorName);
